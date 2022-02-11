@@ -1,0 +1,27 @@
+MODEL_DIR: 'model/'
+
+SPECIAL_TOKENS:
+
+  - 'ar_XX'
+  - 'en_XX'
+  - 'es_XX'
+  - 'fr_XX'
+  - 'hi_XX'
+  - 'id_XX'
+  - 'ja_XX'
+  - 'ko_XX'
+  - 'pt_XX'
+  - 'ru_XX'
+  - 'zh_XX'
+
+VOCAB_SIZE: 250112
+NUM_LAYERS: 8
+NUM_HEADS: 6
+MAX_LEN: 100
+
+BATCH_SIZE: 12
+EPOCHS: 5
+LEARNING_RATE: 0.00005
+
+CHECKPOINT_DIR: 'checkpoints/'
+LOG_DIR: 'tensorboard/'
